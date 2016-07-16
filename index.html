@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html class='js no-touch svg no-oldie'>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta charset="utf-8">
+<title>尝鲜派</title>
+<script src="http://betafan.sunbelife.com/style.js" type="text/javascript"></script>
+<link type="text/css" rel=stylesheet href="style.css">
+</head>
+<body>
+<div class='content' data-hires='true'>
+<div class='localnav-wrapper gh-show-below'>
+<nav class='localnav'>
+<h2 class='localnav-title weight-300'>
+<a>尝鲜派</a>
+</h2>
+<ul class='localnav-links'>
+<li><a href="http://act.feng.com/wetools/index.php?r=appleinfo/index" class="localnav-link">序列号查询</a></li>
+<li><a href="http://act.feng.com/wetools/index.php?r=iosRom/index" class="localnav-link">固件下载</a></li>
+<li><a href="http://www.sunbelife.com/archives/category/report" class="localnav-link">体验报告</a></li>
+<li><a href="http://www.sunbelife.com" class="localnav-link">走进博客</a></li>
+<li><a href="http://weibo.com/x1nyang" class="localnav-link">联系微博</a></li>
+</ul>
+</nav>
+</div>
+<div class='text-center'>
+<div class='clearfix'></div>
+<div class='row large-pad-bottom medium-pad-top'>
+<div class='row'>
+<div class='large-12 column figure-crop no-crop' id='tt-upcoming-cpus-contain'>
+<img src="/imgs/5.jpg" width=80%>
+</div>
+</div>
+</div>
+<div class='row large-pad-top large-12 large-centered column text-center'>
+<div class='row title-primary'>
+<h1 class='no-margin normal-line-height'>欢迎来到尝鲜派！</h1>
+<br>
+</div>
+<div class='row large-10 large-centered column text-center secondary-text-block'>
+<h2 class='hero-subhead' style='margin-bottom:0px;'>在这里，您既可以帮助苹果把即将发布的 iOS 10 和 Apple Watch OS 3 做成史上最佳的版本，亦可以查看新系统的体验报告，第一时间了解新系统改进之处与体验效果。 </h2>
+<br>
+<div class='row xlarge-pad-bottom'>
+<div class='large-12 column'>
+<hr>
+<nav class='togglenav' style='top: -10px; position: absolute;'>
+<ul>
+<li>
+<a class='togglenav-button' href='#ios' id='tios'>
+iOS
+</a>
+</li>
+<li>
+<a class='togglenav-button current' href='#watchos' id='twatchos'>
+WatchOS
+</a>
+</li>
+</ul>
+</nav>
+<script>
+  var cookie_name = 'bp_content_tab';
+  switchContent = function() {
+    var tags = ['watchos','ios'];
+    var anchor = window.location.hash.substr(1);
+    if (anchor == 'watchosdownload') { anchor = 'ios'}
+    if (anchor == 'iosdownload') { anchor = 'ios' }
+    if ($.inArray( anchor, tags )==-1) { anchor = '' }
+    if ((anchor == '') && ($.cookie(cookie_name)) && (($.cookie(cookie_name)=='ios') || ($.cookie(cookie_name)=='ios'))) 
+    {
+      anchor = $.cookie(cookie_name);
+    }
+    if (anchor == '') {
+      if (navigator.userAgent.match(/(Mobile\/.+Safari)|(AppleWebKit\/.+Mobile)/))
+        {anchor = 'ios';}
+      else
+        {anchor = 'ios';}
+    }
+    $("[name='e" + anchor + "']").show();
+    $("#t" + anchor).attr('class', 'togglenav-button current');
+    $.each($.grep(tags, function(value) {return value != anchor;}), function( index, value ) {$("[name='e" + value + "']").hide(); $("[id='t" + value + "']").attr('class', 'togglenav-button');});
+    $.cookie(cookie_name, anchor, {path: '/'});
+  }
+  
+  $( document ).ready(function() {
+    switchContent();
+  });
+  
+  $(window).bind('hashchange', function () {
+    switchContent();
+  });
+</script>
+
+</div>
+</div>
+
+<div name='ewatchos'>
+<div class='row large-pad-bottom'>
+<h3>开始使用 Watch OS 3</h3>
+<div class='large-1 small-2 column text-right'>
+<div class='steps-number-label'>1</div>
+</div>
+<div class='large-10 large-centered small-11 small-centered column' align="left">
+<h4>下载描述文件</h4>
+<p>Apple Beta 版软件计划现可用于 WatchOS，请通过 iOS 设备点击下方的下载按钮，以下载配置描述文件。您的 iOS 设备将会提示您进行安装。按照屏幕指示来允许安装至 Apple Watch。</p>
+<span class='button enabled'>
+<a href="http://www.sunbelife.com/watch.mobileconfig" style="color:#fff; text-decoration:none;">请使用 iOS 设备下载</a>
+</span>
+<br>
+<br>
+<div class='large-11 small-10 column large-pad-bottom' align="center">
+<img src="/imgs/7.jpg" width="325">
+</div>
+</div>
+
+<div class='row large-pad-bottom'></div>
+<div class='large-1 small-2 column text-right'>
+<div class='steps-number-label'>2</div>
+</div>
+<div class='large-11 small-10 column large-pad-bottom' align="left">
+<h4>检查更新</h4>
+<p>打开 iPhone 上的 Watch App，进入通用——系统更新，即可收到 Watch OS 3 的推送。</p>
+</div>
+<div class='large-11 small-10 column large-pad-bottom' align="center">
+<img src="/imgs/8.jpg" width="325">
+</div>
+<div class='row large-pad-bottom'></div>
+<div class='large-1 small-2 column text-right'>
+<div class='steps-number-label'>3</div>
+</div>
+<div class='large-11 small-10 column large-pad-bottom' align="left">
+<h4>注意事项</h4>
+<p>本 Beta 版本升级后无法降级，请在考虑过后再选择是否升级至测试版，请在升级时保证手表有 50% 的电量，建议将手表放入充电器进行更新。</p>
+</div>
+</div>
+</div>
+
+<div name='eios'>
+<h3>开始使用 iOS 10</h3>
+<div class='row large-pad-bottom'>
+<div class='large-1 small-2 column text-right'>
+<div class='steps-number-label'>1</div>
+</div>
+<div class='large-11 small-10 column large-pad-bottom' align="left">
+<h4>归档 iOS 备份</h4>
+<p>请注意，您即将安装 Beta 版软件。请始终在安装 Beta 版 iOS 前备份您的数据和文件。我们建议您在安装 iOS Beta 版前进行 iTunes 备份并将其归档。</p>
+<p><a href="https://support.apple.com/HT203282">使用 iTunes 归档 iOS 备份 ></a></p>
+</div>
+<div class='large-12 column figure-crop no-crop steps-image-contain'>
+<br>
+<img src="/imgs/6.jpg" width=90%>
+</div>
+</div>
+<div class='row large-pad-bottom'>
+<hr>
+</div>
+<div class='row large-pad-bottom' id='iosdownload'>
+<div class='large-1 small-2 column text-right'>
+<div class='steps-number-label'>2</div>
+</div>
+<div class='large-11 small-10 column large-pad-bottom' align="left">
+<h4>下载描述文件</h4>
+<p>通过 iOS 设备点击下方的下载按钮，以下载配置描述文件。您的 iOS 设备将会提示您进行安装。按照屏幕指示来允许安装。</p>
+<div class='large-12 column'>
+<p>
+<span class='button enabled'>
+<a href="http://www.sunbelife.com/phone.mobileconfig" style="color:#fff; text-decoration:none;">iOS 设备下载</a>
+</span>
+</p>
+</div>
+</div>
+<div class='large-12 column figure-crop no-crop' style='height: 575px;'>
+<img src="/imgs/3.jpg" width="325">
+</div>
+</div>
+<div class='row large-pad-bottom'>
+<hr>
+</div>
+<div class='row large-pad-bottom'>
+<div class='large-1 small-2 column text-right'>
+<div class='steps-number-label'>3</div>
+</div>
+<div class='large-11 small-10 column large-pad-bottom' align="left">
+<h4>更新您的 iOS 设备</h4>
+<p>运行 iOS 8.1.3 或更高版本的 iOS 设备将以无线方式自动接收最新的 Public Beta 版软件。轻点“设置”&gt;“通用”&gt;“软件更新”来安装任何可用的 Beta 版软件。</p>
+</div>
+<div class='large-12 column figure-crop no-crop' style='height: 575px;'>
+<img src="/imgs/4.jpg" width="325">
+</div>
+</div>
+</div>
+
+<footer id='globalfooter' role='contentinfo'>
+<div class='gf-sosumi'>
+<div class='gf-buy'>
+</ul>
+</div>
+</footer>
+<script>
+  $(function() {
+    $('#lang-footer-item').on('change', function(p_evt) {
+      p_evt.preventDefault();
+      var $tar = $(p_evt.target);
+  
+      lang_reg = /\/[a-rt-z][a-oq-z]\//;
+      sp_reg = /\/sp\//
+      query_reg = /(locale=[a-z]{2}[\&]{0,1})/;
+  
+      if( -1 !== window.location.pathname.search(lang_reg) ) {
+        var new_path = window.location.pathname.replace(lang_reg, '/' + $tar.val() + '/');
+      }
+      else if ( -1 !== window.location.pathname.search(sp_reg) )
+        var new_path = window.location.pathname.replace(sp_reg, '/sp/' + $tar.val() + '/');
+      else {
+        var new_path = '/' + $tar.val() + window.location.pathname;
+      }
+      var final_url = window.location.href.replace( window.location.pathname, new_path ).replace(query_reg, '');
+      // console.log('selected language ' + final_url);
+      window.location.assign(final_url);
+    });
+  });
+</script>
+</div>
+</div>
+<!-- <hr class='xlarge-pad-top xlarge-pad-bottom'> -->
+<footer style="text-align:center;font-size:12px;" id='globalfooter' role='contentinfo'>Powered by Sunbelife<br>2016.7.11</footer>
+<div style="display:none">
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1259884726'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1259884726' type='text/javascript'%3E%3C/script%3E"));</script>
+</div>
+</body>
+</html>
