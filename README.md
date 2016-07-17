@@ -5,7 +5,12 @@
 
 # 更新记录
 ### BetaPie Alpha -- 2016 年 7 月 16 日
-+ 汉化部分截图
-+ 主页 CSS、JS、字体 本地化完成
-+ 完成 Logo 设计
-+ 更新 favicon.icon
++ 汉化部分截图 by @Jacky
++ 主页 CSS、JS、字体 本地化完成 by @Sunbelife
++ 完成 Logo 设计 by @Code
++ 更新 favicon.icon by @Code
++ 
+BetaPie Alpha -- 2016 年 7 月 17 日 by @Sunbelife
+1、去掉了一些多余文件。
+2、整合 Bootstrap 框架。
+3、首页微调、加入 Logo。
