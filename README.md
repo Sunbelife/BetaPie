@@ -10,7 +10,8 @@
 + 完成 Logo 设计 by @Code
 + 更新 favicon.icon by @Code
 + 
-BetaPie Alpha -- 2016 年 7 月 17 日 by @Sunbelife
+
+### BetaPie Alpha -- 2016 年 7 月 17 日 by @Sunbelife
 1、去掉了一些多余文件。
 2、整合 Bootstrap 框架。
 3、首页微调、加入 Logo。
