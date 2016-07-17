@@ -9,10 +9,10 @@
 + 主页 CSS、JS、字体 本地化完成 by @Sunbelife
 + 完成 Logo 设计 by @Code
 + 更新 favicon.icon by @Code
-+ 
 
-### BetaPie Alpha -- 2016 年 7 月 17 日 by @Sunbelife
+
+### BetaPie Alpha -- 2016 年 7 月 17 日 
 + 去掉了一些多余文件。
 + 整合 Bootstrap 框架。
 + 首页微调、加入 Logo。
-+ 
+                          by @Sunbelife
