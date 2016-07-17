@@ -7,8 +7,8 @@
 ### BetaPie Alpha -- 2016 年 7 月 16 日
 + 汉化部分截图 by @Jacky
 + 主页 CSS、JS、字体 本地化完成 by @Sunbelife
-+ 完成 Logo 设计 by @Code
-+ 更新 favicon.icon by @Code
++ 完成 Logo 设计 by @Thorse
++ 更新 favicon.icon by @Thorse
 
 
 ### BetaPie Alpha -- 2016 年 7 月 17 日 
