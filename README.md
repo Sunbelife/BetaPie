@@ -11,8 +11,8 @@
 + 更新 favicon.icon by @Thorse
 
 
-### BetaPie Alpha -- 2016 年 7 月 17 日 
+### BetaPie Alpha -- 2016 年 7 月 17 日
 + 去掉了一些多余文件。
 + 整合 Bootstrap 框架。
 + 首页微调、加入 Logo。
-                          by @Sunbelife
+                      by @Sunbelife
