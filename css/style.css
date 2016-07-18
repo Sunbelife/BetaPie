@@ -695,7 +695,7 @@ html.no-touch .localnav-link:hover {
 }
 .steps-number-label {
 	background-size: 32px 32px;
-	background-image: url(//betafan.sunbelife.com/imgs/bullet_circle.png);
+	background-image: url(../imgs/bullet_circle.svg);
 	font-family: 'Myriad Set Pro', 'Helvetica Neue', Helvetica;
 	font-size: 16px;
 	font-weight: 400;
@@ -709,7 +709,7 @@ html.no-touch .localnav-link:hover {
 }
 @media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2 / 1), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
 	.steps-number-label {
-	background-image: url(//betafan.sunbelife.com/imgs/bullet_circle.png)	}
+	background-image: url(../imgs/bullet_circle.svg)	}
 }
 #globalfooter {
 	margin: 10px auto 0 !important
@@ -922,7 +922,7 @@ a,a:link,a:visited {
 html {
 	font-family: "Myriad Set Pro","Helvetica Neue","Helvetica","Arial",sans-serif;
 	font-size: 112.5%;
-	quotes: "%ý" "%ý"
+	quotes: "%ï¿½" "%ï¿½"
 }
 body {
 	font-size: 18px;
