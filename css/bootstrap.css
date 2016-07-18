@@ -261,25 +261,10 @@ th {
   }
 }
 @font-face {
-  font-family:"AppleIcons";
-  font-style:normal;
-  font-weight:400;
-  src:url("https://beta.apple.com/sp/zh/betaprogram/redemption?locale=zh/ac-assets/fonts/appleicons_text.eot");
-  src:url("https://beta.apple.com/sp/zh/betaprogram/redemption?locale=zh/ac-assets/fonts/appleicons_text.eot?#iefix") format("embedded-opentype"),url("https://beta.apple.com/sp/zh/betaprogram/redemption?locale=zh/ac-assets/fonts/appleicons_text.woff") format("woff"),url("https://beta.apple.com/sp/zh/betaprogram/redemption?locale=zh/ac-assets/fonts/appleicons_text.ttf") format("truetype")
-}
-@font-face {
-  font-family:"AppleIcons";
-  font-style:normal;
-  font-weight:200;
-  src:url("https://beta.apple.com/sp/zh/betaprogram/redemption?locale=zh/ac-assets/fonts/appleicons_thin.eot");
-  src:url("https://beta.apple.com/sp/zh/betaprogram/redemption?locale=zh/ac-assets/fonts/appleicons_thin.eot?#iefix") format("embedded-opentype"),url("https://beta.apple.com/sp/zh/betaprogram/redemption?locale=zh/ac-assets/fonts/appleicons_thin.woff") format("woff"),url("https://beta.apple.com/sp/zh/betaprogram/redemption?locale=zh/ac-assets/fonts/appleicons_thin.ttf") format("truetype")
-}
-@font-face {
-  font-family:"AppleIcons";
-  font-style:normal;
-  font-weight:100;
-  src:url("https://beta.apple.com/sp/zh/betaprogram/redemption?locale=zh/ac-assets/fonts/appleicons_ultralight.eot");
-  src:url("https://beta.apple.com/sp/zh/betaprogram/redemption?locale=zh/ac-assets/fonts/appleicons_ultralight.eot?#iefix") format("embedded-opentype"),url("https://beta.apple.com/sp/zh/betaprogram/redemption?locale=zh/ac-assets/fonts/appleicons_ultralight.woff") format("woff"),url("https://beta.apple.com/sp/zh/betaprogram/redemption?locale=zh/ac-assets/fonts/appleicons_ultralight.ttf") format("truetype")
+  font-family: 'Glyphicons Halflings';
+
+  src: url('../fonts/glyphicons-halflings-regular.eot');
+  src: url('../fonts/glyphicons-halflings-regular.eot?#iefix') format('embedded-opentype'), url('../fonts/glyphicons-halflings-regular.woff2') format('woff2'), url('../fonts/glyphicons-halflings-regular.woff') format('woff'), url('../fonts/glyphicons-halflings-regular.ttf') format('truetype'), url('../fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular') format('svg');
 }
 .glyphicon {
   position: relative;
@@ -1598,11 +1583,10 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-/*  padding-right: 15px;
+  padding-right: 15px;
   padding-left: 15px;
   margin-right: auto;
-  margin-left: auto;*/
-  width: 83.33333%;
+  margin-left: auto;
 }
 @media (min-width: 768px) {
   .container {
@@ -4338,7 +4322,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 .navbar-brand {
   float: left;
   height: 50px;
-  font-size: 32px;
   padding: 15px 15px;
   font-size: 18px;
   line-height: 20px;

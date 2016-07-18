@@ -727,10 +727,11 @@ hr {
 	border-top: 1px solid #ddd
 }
 .large-pad-bottom {
+	margin-top: 40px;
 	margin-bottom: 40px
 }
 .xlarge-pad-bottom {
-	margin-bottom: 65px
+	margin-bottom: 40px
 }
 .medium-pad-top {
 	margin-top: 20px
