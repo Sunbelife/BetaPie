@@ -7,7 +7,7 @@
 		private $fonturl;
 		private $session;
     /*随机数字和字母*/
-		function __construct($width = 120,$height = 30,$counts = 4,$distrubcode="1235467890abcdefghijkmnopqrstuvwxyz",$fonturl="./fonts/Tekton.otf"){
+		function __construct($width = 120,$height = 30,$counts = 4,$distrubcode="1235467890abcdefghijkmnopqrstuvwxyz",$fonturl="./fonts/ValidateCode.otf"){
 			$this->width=$width;
 			$this->height=$height;
 			$this->counts=$counts;
@@ -61,7 +61,7 @@
 				$scode=$this->session;
 				$y=floor($height/2)+floor($height/4);
 				$fontsize=rand(30,35);
-				$fonturl="./fonts/Tekton.otf";//$this->fonturl;
+				$fonturl="./fonts/ValidateCode.otf";//$this->fonturl;
 				$counts=$this->counts;
 				for($i=0;$i<$counts;$i++){
 					$char=$scode[$i];
